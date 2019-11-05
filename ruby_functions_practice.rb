@@ -52,9 +52,17 @@ end
 
 def cube_volume(length)
   return length**3
-end 
+end
 
-# begin def greet(name, time_of_day)
+def volume_of_sphere(radius)
+  return radius**3 * 4.0 / 3.0 * 3.14
+end
+
+def f_to_c(farenheit)
+  return farenheit - 32 / 1.8000
+end
+
+# begin def greet(name, time_of_day)  113.04
 #   return "Good #{time_of_day}, #{name.capitalize()}"
 # end
 #
