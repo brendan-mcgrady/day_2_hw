@@ -22,6 +22,10 @@ def length_of_string(test_string)
   return test_string.length
 end
 
+def join_string(string1, string2)
+  return string1 + string2
+end 
+
 # begin def greet(name, time_of_day)
 #   return "Good #{time_of_day}, #{name.capitalize()}"
 # end
