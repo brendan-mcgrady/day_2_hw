@@ -12,7 +12,11 @@ end
 
 def multiply(no1, no2)
   return no1 * no2
-end 
+end
+
+def divide(no1, no2)
+  return no1 / no2
+end
 
 # begin def greet(name, time_of_day)
 #   return "Good #{time_of_day}, #{name.capitalize()}"
