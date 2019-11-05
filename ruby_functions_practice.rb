@@ -28,7 +28,14 @@ end
 
 def add_string_as_number(str1, str2)
   return str1 + str2.to_i()
-end 
+end
+
+def number_to_full_month_name(month)
+  if (month == 1)
+    return "January"
+  end
+end
+
 
 # begin def greet(name, time_of_day)
 #   return "Good #{time_of_day}, #{name.capitalize()}"
