@@ -6,7 +6,7 @@ def add(number_1, number_2)
   return number_1 + number_2
 end
 
-def substract(number_1, number_2)
+def subtract(number_1, number_2)
   return number_1 - number_2
 end
 
@@ -27,14 +27,29 @@ def join_string(string1, string2)
 end
 
 def add_string_as_number(str1, str2)
-  return str1 + str2.to_i()
+  return str1.to_i() + str2.to_i()
 end
 
 def number_to_full_month_name(month)
   if (month == 1)
     return "January"
+  elsif (month == 3)
+    return "March"
+  else (month == 9)
+    return "September"
   end
 end
+
+def number_to_short_month_name(month)
+  if (month == 1)
+    return "Jan"
+  elsif (month == 4)
+    return "Apr"
+  else (month == 10)
+    return "Oct"
+  end
+end
+
 
 
 # begin def greet(name, time_of_day)
