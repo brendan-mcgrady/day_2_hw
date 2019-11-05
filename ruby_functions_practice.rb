@@ -18,6 +18,10 @@ def divide(no1, no2)
   return no1 / no2
 end
 
+def length_of_string(test_string)
+  return test_string.length
+end
+
 # begin def greet(name, time_of_day)
 #   return "Good #{time_of_day}, #{name.capitalize()}"
 # end
