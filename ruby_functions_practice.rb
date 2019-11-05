@@ -50,7 +50,9 @@ def number_to_short_month_name(month)
   end
 end
 
-
+def cube_volume(length)
+  return length**3
+end 
 
 # begin def greet(name, time_of_day)
 #   return "Good #{time_of_day}, #{name.capitalize()}"
