@@ -24,6 +24,10 @@ end
 
 def join_string(string1, string2)
   return string1 + string2
+end
+
+def add_string_as_number(str1, str2)
+  return str1 + str2.to_i()
 end 
 
 # begin def greet(name, time_of_day)
