@@ -1,16 +1,10 @@
-def test_add()
-  add_result = add( 1, 2 )
-  assert_equal( 3, add_result )
-end
-
 def return_10()
-  return_10 = 10
+  return 10
 end
 
-def add()
-  1 + 2 = 3
+def add(number_1, number_2)
+  return number_1 + number_2
 end
-
 
 # begin def greet(name, time_of_day)
 #   return "Good #{time_of_day}, #{name.capitalize()}"
