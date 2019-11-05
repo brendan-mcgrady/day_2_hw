@@ -6,6 +6,10 @@ def add(number_1, number_2)
   return number_1 + number_2
 end
 
+def substract(number_1, number_2)
+  return number_1 - number_2
+end
+
 # begin def greet(name, time_of_day)
 #   return "Good #{time_of_day}, #{name.capitalize()}"
 # end
